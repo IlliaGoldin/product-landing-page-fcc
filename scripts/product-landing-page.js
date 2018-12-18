@@ -3,56 +3,56 @@
 //Nav-bar Logo
 document.getElementById("logo-img").addEventListener("mouseover", function () {
     let element = document.getElementById("logo-img");
-    element.src = "/media/logo-bar/logo-hover.svg";
+    element.src = "media/logo-bar/logo-hover.svg";
 });
 
 document.getElementById("logo-img").addEventListener("mouseout", function () {
     let element = document.getElementById("logo-img");
-    element.src = "/media/logo-bar/logo.svg";
+    element.src = "media/logo-bar/logo.svg";
 });
 
 //Nav-bar Cart
 document.getElementById("cart-img").addEventListener("mouseover", function () {
     let element = document.getElementById("cart-img");
-    element.src = "/media/logo-bar/cart-plus-solid-hover.svg";
+    element.src = "media/logo-bar/cart-plus-solid-hover.svg";
 });
 
 document.getElementById("cart-img").addEventListener("mouseout", function () {
     let element = document.getElementById("cart-img");
-    element.src = "/media/logo-bar/cart-plus-solid.svg";
+    element.src = "media/logo-bar/cart-plus-solid.svg";
 });
 
 //Nav-nar Details
 document.getElementById("details-a").addEventListener("mouseover", function () {
     let element = document.getElementById("details-img");
-    element.src = "/media/nav-bar-icons/details-hover.svg";
+    element.src = "media/nav-bar-icons/details-hover.svg";
 });
 
 document.getElementById("details-a").addEventListener("mouseout", function () {
     let element = document.getElementById("details-img");
-    element.src = "/media/nav-bar-icons/details.svg";
+    element.src = "media/nav-bar-icons/details.svg";
 });
 
 //Nav-bar Gallery
 document.getElementById("gallery-a").addEventListener("mouseover", function () {
     let element = document.getElementById("gallery-img");
-    element.src = "/media/nav-bar-icons/gallery-hover.svg";
+    element.src = "media/nav-bar-icons/gallery-hover.svg";
 });
 
 document.getElementById("gallery-a").addEventListener("mouseout", function () {
     let element = document.getElementById("gallery-img");
-    element.src = "/media/nav-bar-icons/gallery.svg";
+    element.src = "media/nav-bar-icons/gallery.svg";
 });
 
 //Nav-bar Products
 document.getElementById("products-a").addEventListener("mouseover", function () {
     let element = document.getElementById("products-img");
-    element.src = "/media/nav-bar-icons/products-hover.svg";
+    element.src = "media/nav-bar-icons/products-hover.svg";
 });
 
 document.getElementById("products-a").addEventListener("mouseout", function () {
     let element = document.getElementById("products-img");
-    element.src = "/media/nav-bar-icons/products.svg";
+    element.src = "media/nav-bar-icons/products.svg";
 });
 
 /*Nav-bar mobile v1*/
