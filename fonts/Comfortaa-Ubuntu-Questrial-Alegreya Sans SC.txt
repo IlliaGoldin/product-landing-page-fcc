@@ -1,0 +1,26 @@
+-=Open Sans=-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+font-family: 'Roboto', sans-serif;
+
+-=Ubuntu=-
+<style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+</style>
+font-family: 'Ubuntu', sans-serif;
+
+-=Questrial=-
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+font-family: 'Questrial', sans-serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+</style>
+
+-=Alegreya Sans SC=-
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700" rel="stylesheet">
+font-family: 'Alegreya Sans SC', sans-serif;
+<style>
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700');
+</style>

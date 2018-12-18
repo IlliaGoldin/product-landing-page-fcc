@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Product Landing Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/product-landing-page.css">
+</head>
+
+<body>
+	<header id="header" class="top-nav-bar">
+		<nav role="navigation">
+			<img id="logo-img" class="top-nav-bar__logo" src="media/logo-bar/logo.svg">
+			<img id="cart-img" class="top-nav-bar__cart" src="media/logo-bar/cart-plus-solid.svg">
+			<div class="top-nav-bar__jump-to">
+					<ul>
+						<a id="details-a" href="#details">
+
+							<li><img id="details-img" style="width: 1.3rem;" src="media/nav-bar-icons/details.svg"
+								 alt="Details Icon"> <span>Details</span></li>
+						</a>
+						<a id="gallery-a" href="#gallery">
+
+							<li><img id="gallery-img" src="media/nav-bar-icons/gallery.svg"
+								 alt="Gallery Icon"><span>Gallery</span></li>
+						</a>
+						<a id="products-a" href="#products">
+
+							<li><img id="products-img" src="media/nav-bar-icons/products.svg"
+								 alt="Products Icon"><span>Products</span></li>
+						</a>
+					</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="main-container">
+
+		<div class="main-container__landing-image">
+			<img src="media/cool-media.svg" alt="Clouds">
+		</div>
+
+		<main>
+			<div id="details" class="main-container__description">
+				<h1>Control Your Cloud</h1>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula tortor a nibh gravida lobortis.
+					Donec nec est vitae urna imperdiet efficitur a eu est. Nulla sit amet elit in enim accumsan ornare. Integer
+					sollicitudin mi eu luctus elementum. Nulla interdum felis id nulla sodales iaculis vitae aliquet leo. Vivamus ut
+					mauris dui. Suspendisse potenti.</br>
+					Donec id vehicula ante, ut aliquam ante. Mauris ultricies lacus in feugiat sagittis. Pellentesque odio turpis,
+					fringilla vel luctus venenatis, lobortis vel odio. Vestibulum consectetur egestas convallis. Suspendisse id ante
+					congue, tincidunt diam posuere, ultrices nunc. Maecenas cursus fringilla tincidunt. Mauris scelerisque magna eget
+					vulputate sagittis.</br>
+					Suspendisse nunc lorem, congue id mauris vitae, vulputate accumsan justo. Pellentesque habitant morbi tristique
+					senectus et netus et malesuada fames ac turpis egestas. Maecenas at faucibus justo, et porta ante. Morbi at
+					porttitor dui. Curabitur lobortis varius metus, in sollicitudin ante. Aliquam maximus dui posuere, tempor leo
+					tincidunt, sodales est. Quisque convallis nisl felis, sed congue diam varius eu. Etiam fermentum cursus tellus
+					eget rutrum.</br>
+
+				</p>
+				<h2>Our services include:</h2>
+				<ul>
+					<li>IaaS(Infrastructure-as-a-Service)</li>
+					<li>PaaS(Platform-as-a-Service)</li>
+					<li>SaaS(Software-as-a-Service)</li>
+					<li>TaaS(Testing-as-a-Service)</li>
+					<li>Etc.</li>
+				</ul>
+				<div class="video">
+					<iframe width="100%" height="500" src="https://www.youtube.com/embed/U-dIEm3fiPQ" frameborder="0" allow="autoplay; encrypted-media"
+					 alt="Floating clouds with background music." allowfullscreen></iframe>
+				</div>
+			</div>
+		</main>
+
+		<section>
+			<div id="gallery" class="main-container__gallery">
+				<h3>GALLERY</h3>
+				<div class="main-container__gallery__grid">
+					<img id="cloud-one" src="media/gallery/cloud1.jpg"
+					 alt="cloud one">
+					<img id="cloud-two" src="media/gallery/cloud2.jpg"
+					 alt="cloud two">
+					<img id="cloud-three" src="media/gallery/cloud3.jpeg"
+					 alt="cloud three">
+					<img id="cloud-four" src="media/gallery/cloud4.jpg"
+					 alt="cloud four">
+					<img id="cloud-five" src="media/gallery/cloud5.jpg"
+					 alt="cloud five">
+					<img id="cloud-six" src="media/gallery/cloud6.jpg"
+					 alt="cloud six">
+				</div>
+				<div class="white-line"></div>
+			</div>
+		</section>
+
+		<section>
+			<div id="products" class="main-container__products">
+				<h4>PRODUCTS</h4>
+				<div class="main-container__products__grid">
+					<div class="product">
+						<p><span>Mushroom Cloud</span></p>
+						<ul>
+							<li>Lorem Ipsum</li>
+							<li>Vivamus vehicula</li>
+							<li>Mauris id diam ut</li>
+							<li>Sed sollicitudin lobortis auctor</li>
+						</ul>
+						<p>$3000</p>
+						<a href="">
+							<div class="product__add-btn">Add to Cart</div>
+						</a>
+					</div>
+					<div class="product">
+						<p><span>Condensation Cloud</span></p>
+						<ul>
+							<li>Lorem ipsum dolor</li>
+							<li>Lorem Ipsum</li>
+							<li>Donec purus urna</li>
+							<li>Morbi eget ex in turpis</li>
+						</ul>
+						<p>$2000</p>
+						<a href="">
+							<div class="product__add-btn">Add to Cart</div>
+						</a>
+					</div>
+					<div class="product">
+						<p><span>Noctilucent Cloud</span></p>
+						<ul>
+							<li>Lorem Ipsum</li>
+							<li>Vivamus vehicula</li>
+							<li>Mauris id diam ut</li>
+							<li>Sed sollicitudin lobortis auctor</li>
+						</ul>
+						<p>$900</p>
+						<a href="">
+							<div class="product__add-btn">Add to Cart</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<p>Created by <a target="_blank" href="https://www.linkedin.com/in/illia-goldin/">Illia Goldin</a> </br></br>
+			Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
+			 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+			 target="_blank">CC 3.0 BY</a></br>
+			Special thanks to FONTAWESOME for the cart icon. <a href="https://fontawesome.com/license">https://fontawesome.com/license</a>
+		</p>
+	</footer>
+
+	<div id="test" class="top-nav--mobile-padding"></div>
+
+	<script src="scripts/product-landing-page.js"></script>
+</body>
+
+</html>
